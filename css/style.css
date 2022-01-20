@@ -1186,6 +1186,12 @@ a[href="javascript:;"] {
     .document__title {
         font-size: 18px;
     }
+    .ism__text p:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .ism__title {
+        width: 100%;
+    }
 }
 
 @media(max-width: 1460px) {
@@ -1253,6 +1259,12 @@ a[href="javascript:;"] {
     .project__tab {
         font-size: 16px;
         padding: 12px 0;
+    }
+    .contacts__container {
+        padding-bottom: 20px;
+    }
+    .map {
+        height: 450px;
     }
 }
 
@@ -1343,6 +1355,16 @@ a[href="javascript:;"] {
     }
     .checkbox__box {
         width: 32%;
+    }
+    .contacts__item img {
+        width: 36px;
+        height: 36px;
+    }
+    .contact__item-title {
+        font-size: 18px;
+    }
+    .contact__link {
+        font-size: 16px;
     }
 }
 
@@ -1526,6 +1548,12 @@ a[href="javascript:;"] {
         width: 50px;
         height: 50px;
     }
+    .ism__title {
+        font-size: 30px;
+    }
+    .contacts__container {
+        padding-bottom: 20px;
+    }
 }
 
 @media(max-width:950px) {
@@ -1551,6 +1579,13 @@ a[href="javascript:;"] {
     }
     .project__item-title {
         font-size: 32px;
+    }
+    .contacts__items {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .contacts__item {
+        width: 100%;
     }
 }
 
@@ -1662,6 +1697,12 @@ a[href="javascript:;"] {
         font-size: 18px;
         margin-top: 10px;
     }
+    .ism__title {
+        font-size: 28px;
+    }
+    .map {
+        height: 400px;
+    }
 }
 
 @media(max-width: 700px) {
@@ -1728,6 +1769,9 @@ a[href="javascript:;"] {
     }
     .document__title {
         font-size: 16px;
+    }
+    .map {
+        height: 350px;
     }
 }
 
