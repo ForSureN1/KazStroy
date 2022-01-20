@@ -1,0 +1,160 @@
+/* Указываем box sizing */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1;
+    font-size: 20px;
+    font-family: 'Gotham';
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+article>*+* {
+    margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1600px;
+}
+
+@media(max-width: 1920px) {
+    .container {
+        width: 1600px;
+    }
+}
+
+@media(max-width: 1650px) {
+    .container {
+        width: 1360px;
+    }
+}
+
+@media(max-width: 1460px) {
+    .container {
+        width: 1260px;
+    }
+}
+
+@media(max-width: 1360px) {
+    .container {
+        width: 1160px;
+    }
+}
+
+@media(max-width: 1260px) {
+    .container {
+        width: 1060px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/GothamPro.eot');
+    src: local('☺'), url('../fonts/GothamPro.woff') format('woff'), url('../fonts/GothamPro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/GothamPro-Medium.eot');
+    src: local('☺'), url('../fonts/GothamPro-Medium.woff') format('woff'), url('../fonts/GothamPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/GothamPro-Bold.eot');
+    src: local('☺'), url('../fonts/GothamPro-Bold.woff') format('woff'), url('../fonts/GothamPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rothek';
+    src: url('../fonts/Groteskly Yours - Rothek Bold.otf');
+    src: local('☺'), url('../fonts/Groteskly Yours - Rothek Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
