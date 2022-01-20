@@ -1364,7 +1364,9 @@ a[href="javascript:;"] {
         font-size: 40px;
     }
     .basic__arrows-btn {
-        bottom: 80px;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
