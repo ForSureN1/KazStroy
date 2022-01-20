@@ -1138,6 +1138,21 @@ a[href="javascript:;"] {
     .header.active .header__logo {
         width: 90px;
     }
+    .about__img {
+        width: 46%;
+    }
+    .about__container {
+        width: 52%;
+    }
+    .about__text {
+        margin-bottom: 30px;
+    }
+    .txt {
+        font-size: 18px;
+    }
+    .services__info-title {
+        font-size: 24px;
+    }
 }
 
 @media(max-width: 1460px) {
@@ -1174,6 +1189,28 @@ a[href="javascript:;"] {
     }
     .projectmain__slider-img {
         height: 500px;
+    }
+    .services__info,
+    .services__info-title {
+        font-size: 20px;
+    }
+    .content {
+        padding: 70px 0;
+    }
+}
+
+@media(max-width: 1360px) {
+    .about__container {
+        width: 100%;
+    }
+    .about__img {
+        position: static;
+        width: 100%;
+        top: 100%;
+    }
+    .about__img {
+        padding-top: 0;
+        height: 700px;
     }
 }
 
@@ -1223,6 +1260,18 @@ a[href="javascript:;"] {
     }
     .title {
         margin-bottom: 30px;
+    }
+    .services__info {
+        width: 100%;
+    }
+    .services__img {
+        position: static;
+        height: 600px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .services {
+        margin-bottom: 0;
     }
 }
 
@@ -1309,6 +1358,28 @@ a[href="javascript:;"] {
     .footer__menu {
         margin: 50px 0;
     }
+    .header.other .header__container {
+        padding-bottom: 30px;
+    }
+    .header.other .hamb {
+        background-color: #000000;
+    }
+    .header.other .hamb div {
+        background-color: #ffffff;
+    }
+    .header.active .header__container {
+        padding: 10px 0;
+    }
+    .header.other .header__list {
+        border: 1px solid #C4C4C4;
+        background-color: #ffffff;
+    }
+    .content {
+        padding: 50px 0;
+    }
+    .about__img {
+        padding-top: 0;
+    }
 }
 
 @media(max-width: 900px) {
@@ -1368,6 +1439,19 @@ a[href="javascript:;"] {
         left: 50%;
         transform: translateX(-50%);
     }
+    .txt {
+        font-size: 16px;
+    }
+    .about__img {
+        height: 600px;
+    }
+    .services__img {
+        height: 360px;
+    }
+    .services__info,
+    .services__info-title {
+        font-size: 18px;
+    }
 }
 
 @media(max-width: 650px) {
@@ -1376,6 +1460,9 @@ a[href="javascript:;"] {
     }
     .projectmain__slider-img {
         height: 350px;
+    }
+    .about__img {
+        height: 500px;
     }
 }
 
@@ -1386,5 +1473,14 @@ a[href="javascript:;"] {
     .projestmain__header {
         flex-direction: column;
         margin-bottom: 30px;
+    }
+    .about__img {
+        height: 350px;
+    }
+}
+
+@media(max-width: 450px) {
+    .services__img {
+        height: 250px;
     }
 }
