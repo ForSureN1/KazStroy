@@ -35,7 +35,7 @@ $('.projectmain__slider').slick({
 })
 
 $('.project__slider').slick({
-    autoplay: false,
+    autoplay: true,
     arrows: false,
     dots: true,
     fade: true,
